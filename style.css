@@ -1,0 +1,178 @@
+/* style.css - Versioni Modern Katrore */
+html { scroll-behavior: smooth; }
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+
+body { background-color: #fff; color: #333; }
+
+/* Kthejmë faqen në Full Width - pa kornizë gri */
+.main-container {
+    background: #fff;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 0; /* Katrore */
+    overflow: hidden;
+    box-shadow: none;
+}
+
+/* NAVBAR STICKY - Shiriti i drejtë katror */
+nav {
+    background: rgba(255, 255, 255, 0.98);
+    padding: 15px 60px;
+    border-radius: 0; /* Katrore */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin: 0; /* Ngjitur për tavanit */
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #eee; /* Vijë ndarëse elegante */
+}
+
+.logo { font-weight: 800; letter-spacing: 3px; color: #1a1a1a; font-size: 22px; text-transform: uppercase; }
+.nav-menu { display: flex; list-style: none; gap: 30px; }
+.nav-menu a { text-decoration: none; color: #333; font-size: 11px; font-weight: 700; transition: 0.3s; text-transform: uppercase; letter-spacing: 1px; }
+.nav-menu a:hover { color: #c19d77; }
+
+/* TITUJT - Serioz dhe të dallueshëm */
+h2 {
+    color: #1a1a1a;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.gold-txt { color: #c19d77; font-weight: 700; letter-spacing: 3px; font-size: 11px; display: block; margin-bottom: 15px; text-transform: uppercase; }
+
+/* HERO SECTION - Rregulluar për villa.jpg */
+.hero {
+    height: 90vh;
+    /* Këtu thirret fotoja jote nga folderi */
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('villa.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+
+}
+
+.hero-body h1 { font-size: 65px; font-weight: 300; letter-spacing: 10px; margin: 25px 0; text-transform: uppercase; }
+.explore { border: 1px solid white; color: white; padding: 14px 40px; border-radius: 0; /* Katrore */ text-decoration: none; transition: 0.4s; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+.explore:hover { background: white; color: black; }
+
+/* STORY SECTION - Ngjyra e zezë për kontrast */
+.story-box {
+    padding: 120px 10%;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.welcome { 
+    display: flex; 
+    flex-direction: row; /* I detyron të rrinë rresht (foto-majtas, tekst-djathtas) */
+    padding: 120px 10%; 
+    gap: 80px; 
+    align-items: center; 
+    background-color: #fff;
+}
+
+/* Kjo e kthen tekstin djathtas dhe fotot majtas */
+.welcome { 
+    display: flex !important; 
+    flex-direction: row !important; 
+    padding: 100px 8%; 
+    gap: 60px; 
+    align-items: center; 
+    background: #fff;
+    width: 100%;
+}
+
+/* Ky div i mban 2 fotot bashkë */
+.welcome-imgs { 
+    display: flex !important; 
+    flex: 1.2; 
+    gap: 15px; 
+    min-width: 500px; /* I jep forcë mos me u tkurrë shumë */
+}
+
+/* KËTU ASHTË SEKRETI: Madhësia e fotove tua */
+.welcome-imgs img { 
+    width: 250px; /* Gjerësia fikse */
+    height: 400px; /* Lartësia fikse */
+    object-fit: cover; /* E pret foton bukur, nuk e shtrembëron */
+    border-radius: 0; 
+    box-shadow: 10px 10px 0 #fdfaf7;
+    display: block;
+}
+
+/* Ky div e mban tekstin djathtas */
+.welcome-info { 
+    flex: 1; 
+    text-align: left; 
+}
+/* Karta kryesore */
+.room-card {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important; /* E rreshton tekstin dhe foton në mes vertikalisht */
+    background: #fff !important;
+    margin-top: 50px !important;
+    border: 1px solid #eee !important;
+    overflow: hidden !important;
+    padding: 20px !important; /* Hapësirë brenda kartës */
+}
+
+/* Pjesa e tekstit (majtas) */
+.room-desc {
+    flex: 1 !important;
+    padding: 40px !important; /* Pak më pak padding për hapësirë */
+    text-align: left !important;
+}
+
+/* Container-i që mban foton (djathtas) */
+.room-img-container {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: center !important; /* Centron foton horizontalisht */
+    align-items: center !important; /* Centron foton vertikalisht */
+    padding: 20px !important;
+}
+
+/* MADHËSIA E FOTOS (E bëmë më të vogël) */
+.room-img-container img {
+    width: 300px !important; /* Gjerësia fikse (e vogël) */
+    height: 300px !important; /* Lartësia fikse (katrore) */
+    object-fit: cover !important; /* Nuk e shtrembëron foton */
+    border-radius: 8px !important; /* Qoshet pak të rrubullakosura (për estetikë) */
+    display: block !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important; /* Pak hije për t'u dukur më bukur */
+}
+/* BUTTONS */
+.res-btn { 
+    background: #c19d77; color: white; padding: 15px 30px; 
+    border-radius: 0; /* Katrore */ text-decoration: none; font-size: 11px; 
+    font-weight: 700; border: none; transition: 0.3s; cursor: pointer; text-transform: uppercase; letter-spacing: 1px;
+}
+.res-btn:hover { background: #a6845e; }
+
+/* DETAILS BTN - Katrore */
+.details-btn {
+    background: none; border: 1px solid #ddd; padding: 15px 30px; 
+    border-radius: 0; font-weight: 700; font-size: 11px; cursor: pointer; 
+    text-transform: uppercase; letter-spacing: 1px;
+}
+
+/* FACILITIES */
+.facilities { padding: 120px 10%; text-align: center; }
+.fac-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 60px; margin-top: 70px; }
+.fac-item { padding: 30px; border: 1px solid #eee; border-radius: 0; /* Katrore */ }
+
