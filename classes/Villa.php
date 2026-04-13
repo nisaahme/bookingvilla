@@ -37,10 +37,10 @@ class Villa {
     public static function getAll() {
         $villas = [
             new Villa(1, 'Seaside Paradise', 'Sarandë, Albania', 120, 'foto1.jpg'),
-            new Villa(2, 'Mountain Retreat', 'Theth, Albania', 93, 'foto2.jpg'),
+            new Villa(2, 'Mountain Retreat', 'Theth, Albania', 90, 'foto2.jpg'),
             new Villa(3, 'Lake View Villa', 'Ohrid, North Macedonia', 150, 'foto3.jpg'),
-            new Villa(4, 'Olive Grove Estate', 'Berat, Albania', 112, 'foto4.jpg'),
-            new Villa(5, 'Sunset Cliff Villa', 'Himare, Albania', 182, 'foto5.jpg'),
+            new Villa(4, 'Olive Grove Estate', 'Berat, Albania', 110, 'foto4.jpg'),
+            new Villa(5, 'Sunset Cliff Villa', 'Himare, Albania', 180, 'foto5.jpg'),
             new Villa(6, 'Forest Zen Villa', 'Dhermi, Albania', 140, 'foto6.jpg'),
         ];// Sorto sipas çmimit (nga më e lira)
         usort($villas, function($a, $b) {
