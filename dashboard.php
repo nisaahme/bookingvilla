@@ -25,7 +25,7 @@ require_once 'includes/nav.php';
 <h2>My Bookings</h2>
 
 <?php if (empty($myBookings)): ?>
-    <p>Nuk keni rezervime të regjistruara. <a href="villas.php">Rezervoni një villë tani!</a></p>
+    <p>You have no bookings yet. <a href="villas.php">ezervoni një villë tani!</a></p>
 <?php else: ?>
     <table border="1" cellpadding="10">
         <tr>
