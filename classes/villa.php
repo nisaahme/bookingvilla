@@ -37,7 +37,7 @@ class Villa {
     public static function getAll() {
         $villas = [   // <--- KRIJO NDRYSHOREN $villas
             new Villa(1, 'Seaside Paradise', 'Sarandë, Albania', 124, 'foto1.jpg'),
-            new Villa(2, 'Mountain Retreat', 'Theth, Albania', 90, 'foto2.jpg'),
+            new Villa(2, 'Mountain Retreat', 'Theth, Albania', 95, 'foto2.jpg'),
             new Villa(3, 'Lake View Villa', 'Ohrid, North Macedonia', 150, 'foto3.jpg'),
             new Villa(4, 'Olive Grove Estate', 'Berat, Albania', 110, 'foto4.jpg'),
             new Villa(5, 'Sunset Cliff Villa', 'Himare, Albania', 180, 'foto5.jpg'),
