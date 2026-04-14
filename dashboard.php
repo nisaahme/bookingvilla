@@ -29,7 +29,7 @@ require_once 'includes/nav.php';
 <?php else: ?>
     <table border="1" cellpadding="10">
         <tr>
-            <th>Villa Name</th>
+            <th>Villa </th>
             <th>Date</th>
             <th>Booked On</th>
         </tr>
