@@ -25,7 +25,7 @@ require_once 'includes/nav.php';
 <h2>My Bookings</h2>
 
 <?php if (empty($myBookings)): ?>
-    <p>You have no bookings . <a href="villas.php">Book a villa now!</a></p>
+    <p>You have no bookings yet. <a href="villas.php">Book a villa now!</a></p>
 <?php else: ?>
     <table border="1" cellpadding="10">
         <tr>
