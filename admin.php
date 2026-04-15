@@ -35,7 +35,7 @@ require_once 'includes/nav.php';
     </table>
 <?php endif; ?>
 
-<h2>All Villa</h2>
+<h2>All Villas</h2>
 <ul>
     <?php foreach ($allVillas as $villa): ?>
         <li><?php echo htmlspecialchars($villa->getName()); ?> - <?php echo $villa->getLocation(); ?> - €<?php echo $villa->getPrice(); ?></li>
