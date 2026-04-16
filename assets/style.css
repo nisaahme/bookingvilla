@@ -1,1 +1,40 @@
-*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* CONTAINER KRYESOR - full width */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+    background: #fff;
+}
+/* NAVBAR - Sticky dhe elegant */
+nav {
+    background: rgba(255, 255, 255, 0.98);
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+    border-radius: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
