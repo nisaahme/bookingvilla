@@ -22,7 +22,7 @@ require_once 'includes/nav.php';
             </div>
             <h3><?php echo htmlspecialchars($villa->getName()); ?></h3>
             <p>📍 <?php echo htmlspecialchars($villa->getLocation()); ?></p>
-            <p>⭐ 4.9 · Superhost</p>
+            <p>⭐ 4.9 · Super</p>
             <p class="price">€<?php echo $villa->getPrice(); ?> <span style="font-size: 0.9rem; font-weight: normal;">/ night</span></p>
             <a href="booking.php?villa_id=<?php echo $villa->getId(); ?>" class="btn">Book Now →</a>
         </div>
