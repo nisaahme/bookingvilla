@@ -99,3 +99,117 @@ footer {
     color: white;
     border-color: #1a1a1a;
 }
+/* WELCOME CARD - Hero Section */
+.welcome-card {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1600');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 40px;
+    border-radius: 0;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+
+.welcome-card h1 {
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.welcome-card p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+
+/* ALERTS */
+.alert-success, .alert-error, .alert-info {
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    border-left: 4px solid;
+    font-size: 14px;
+}
+
+.alert-success {
+    background: #f0f7ee;
+    color: #2c5a2a;
+    border-left-color: #6b8c5c;
+}
+
+.alert-error {
+    background: #fce8e6;
+    color: #a34e3a;
+    border-left-color: #c97e6a;
+}
+
+.alert-info {
+    background: #f5f0e8;
+    color: #5a6b5c;
+    border-left-color: #c19d77;
+}
+/* VILLAS LIST - Grid modern */
+.villas-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.villa-card {
+    background: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.villa-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.villa-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.villa-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.villa-card:hover .villa-image img {
+    transform: scale(1.05);
+}
+
+.villa-card h3 {
+    padding: 20px 20px 5px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.villa-card p {
+    padding: 5px 20px;
+    color: #777;
+    font-size: 13px;
+}
+
+.villa-card .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #c19d77;
+    padding: 10px 20px;
+}
+
+.villa-card .btn {
+    margin: 10px 20px 20px;
+    display: inline-block;
+    padding: 10px 25px;
+}
