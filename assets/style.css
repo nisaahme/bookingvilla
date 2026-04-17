@@ -38,3 +38,64 @@ nav {
     gap: 20px;
     flex-wrap: wrap;
 }
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+    border-radius: 0;
+}
+
+nav a:hover {
+    color: #c19d77;
+    background: transparent;
+}
+
+/* FOOTER */
+footer {
+    background: #fafafa;
+    color: #777;
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+    border-top: 1px solid #eee;
+    font-size: 13px;
+}
+
+/* BUTTON STYLES */
+.btn, button, .btn-browse {
+    display: inline-block;
+    background: #c19d77;
+    color: white;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.btn:hover, button:hover, .btn-browse:hover {
+    background: #a6845e;
+    transform: translateY(-2px);
+}
+
+.btn-browse {
+    background: transparent;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
+}
+
+.btn-browse:hover {
+    background: #1a1a1a;
+    color: white;
+    border-color: #1a1a1a;
+}
