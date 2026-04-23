@@ -331,3 +331,27 @@ h2 {
     display: block;
     margin-bottom: 10px;
 }
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .welcome-card h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+    
+    .villas-list {
+        grid-template-columns: 1fr;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    form {
+        padding: 25px;
+    }
+}
