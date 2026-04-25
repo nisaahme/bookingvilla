@@ -347,11 +347,4 @@ h2 {
         grid-template-columns: 1fr;
     }
     
-    h1 {
-        font-size: 28px;
-    }
-    
-    form {
-        padding: 25px;
-    }
-}
+ 
