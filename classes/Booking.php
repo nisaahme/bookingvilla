@@ -1,4 +1,4 @@
-<?php
+
 <?php
 require_once __DIR__ . '/Model.php';
 
@@ -33,4 +33,4 @@ class Booking extends Model {
 }
 ?>
 
-?>
+
