@@ -1,7 +1,8 @@
 #  Villa Booking System
 
-Një sistem rezervimi vilash i zhvilluar në PHP.
-Faza I realizohet pa databazë, ku të dhënat ruhen në session dhe cookie.
+Një sistem rezervimi vilash i zhvilluar në PHP si pjesë e projektit kursit. Ky sistem u mundëson përdoruesve të shohin vilat e disponueshme, të bëjnë rezervime dhe të menaxhojnë rezervimet e tyre. Administratori ka të drejta shtesë për të parë të gjitha rezervimet e sistemit.
+
+**Faza I** e projektit realizohet pa databazë, ku të dhënat ruhen në session dhe cookie. Kjo do të thotë që rezervimet ruajtën vetëm gjatë kohës që përdoruesi është në faqe dhe humbasin pas mbylljes së browserit
 
 ## Si të ekzekutoni projektin
 
