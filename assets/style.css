@@ -290,14 +290,6 @@ tr:hover {
     border: 1px solid #eee;
 }
 
-.login-box h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: 300;
-    letter-spacing: 3px;
-}
-
 /* CREDENTIALS INFO */
 .credentials-info {
     background: #f5f0e8;
@@ -322,6 +314,7 @@ h2 {
     letter-spacing: 3px;
     margin: 30px 0 20px;
 }
+
 
 .gold-txt {
     color: #c19d77;
