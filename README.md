@@ -8,7 +8,7 @@ Një sistem rezervimi vilash i zhvilluar në PHP si pjesë e projektit kursit. K
 
 **XAMPP (Rekomandohet)**
 
-Së pari, instaloni XAMPP nga apachefriends.org. Pastaj kopjoni folderin e projektit te C:\xampp\htdocs\villa-booking\. Nisni Apache nga XAMPP Control Panel dhe hapni browserin në adresën http://localhost/villa-booking/.
+Së pari, instaloni XAMPP nga apachefriends.org. Pastaj kopjoni folderin e projektit te C:\xampp\htdocs\bookingvilla\. Nisni Apache nga XAMPP Control Panel dhe hapni browserin në adresën http://localhost/bookingvilla/.
 
 **PHP Built-in Server**
 
@@ -18,7 +18,7 @@ Në terminal, brenda folderit të projektit, ekzekutoni komandën php -S localho
 
 **Testimi i Login**
 
-Hapni faqen http://localhost/villa-booking/ dhe klikoni Login. Shkruani user1 si username dhe user123 si fjalëkalim.
+Hapni faqen http://localhost/bookingvilla/ dhe klikoni Login. Shkruani user1 si username dhe user123 si fjalëkalim.
 
 **Testimi i Rezervimit**
 
