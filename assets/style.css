@@ -272,7 +272,13 @@ th {
     letter-spacing: 1px;
     border-bottom: 1px solid #eee;
 }
-
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+tr:hover {
+    background: #fefcf9;
+}
 
 
 /* LOGIN BOX */
